@@ -23,7 +23,7 @@ public class PallindromeStrings {
 		for(int i=0;i<n;i++)
 				str[i]=sc.next();
 		List<String> result=PallindromeStrings.getpallindromes(str,CheckPallindrome::isPallindrome);
-		System.out.println("The pallindromes in the list are:");
+		System.out.println("The palindromes in the list are:");
 		result.forEach(System.out::println);
 		sc.close();
 	}
